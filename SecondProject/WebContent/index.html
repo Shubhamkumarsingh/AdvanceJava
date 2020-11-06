@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="MyServlet" method="POST">
+Number one: <input type="text" name="a">
+Number two: <input type="text" name="b">
+<input type="hidden" name="ops" value="add">&nbsp;
+<input type="submit" value="Submit"><br/>
+</form>
+<form action="MyServlet" method="post">
+Number one: <input type="text" name="a">
+Number two: <input type="text" name="b">
+<input type="hidden" name="ops" value="sub">&nbsp;
+<input type="Submit" value="Submit"><br/>
+</form>
+<form action="MyServlet" method="POST">
+Number one: <input type="text" name="a">
+Number two: <input type="text" name="b">
+<input type="hidden" name="ops" value="mult">&nbsp;
+<input type="submit" value="Submit"><br/>
+</form>
+<form action="MyServlet" method="POST">
+Number one: <input type="text" name="a">
+Number two: <input type="text" name="b">
+<input type="hidden" value="divide" name="ops">&nbsp;
+<input type="submit" value="Submit"><br/>
+</form>
+<form action="DBConnection" method="POST">
+<div style="text-align:center;">
+<h1>Insert data in table here!!!</h1>
+ID:   <input type="text" name="id">
+Name: <input type="text" name="name">
+<input type="submit" value="Submit">
+</div>
+</form>
+<form action="DBFetch" method="POST">
+<div style="text-align:center;">
+<button><b>Click here to see data of the table.</b></button>
+</div>
+</form>
+</body>
+</html>
